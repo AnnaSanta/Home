@@ -12,7 +12,7 @@ def summa(a):
     c = []
 
     while a > 0:
-       res = a%10  
+       res += a%10  
        c.append(res)    
     return c
 
