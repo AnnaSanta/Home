@@ -5,14 +5,16 @@
 # - 0.56 -> 11
 
 a = float(input('Введите вещественное число: '))
+
+
 def summa(a): 
-    c = []
+
     while a > 0:
-       res += a%10
-       c.append(res)
-       a //= 10        
-    return res 
+       c = []
+       res = a%10
+       c.append(res)       
+    return(c)
 print(summa(sum(c)))
 
 
-   
+

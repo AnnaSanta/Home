@@ -6,6 +6,7 @@
 
 number = int(input('Введите число N: '))
 f = 1
+
 for i in range (f, number):
     i = f + 1
     f = i * f
